@@ -1,0 +1,12 @@
+[package]
+name = "auto_update"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+gpui.workspace = true
+nostr-sdk.workspace = true
+anyhow.workspace = true
+dirs.workspace = true
+log.workspace = true
